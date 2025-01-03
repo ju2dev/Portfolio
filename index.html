@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Ju</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">  
 </head>
 <body>
     
@@ -12,15 +15,20 @@
      <nav class="navbar">
         <ul>
             <li><a href="#accueil" class="active">Accueil</a></li>
-            <li><a href="#projets" class="active">Projets</a></li>
-            <li><a href="#" class="active">Passions</a></li>
-            <li><a href="#" class="active">A propos</a></li>
-            <li><a href="#" class="active">Contact</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="passion.html">Passion</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     
+    <main>
     <!-- Conteneur principal -->
     <section id="accueil" class="main-container">
+
+    <img src="img/fleur-bleu.png" alt="fleur décorative" class="corner-flower flower-top-left">
+    <img src="img/fleur-rose.png" alt="fleur décorative" class="corner-flower flower-bottom-right">
+
         <div class="text1">
             <h1>HEY !</h1>
         </div>
@@ -29,7 +37,7 @@
         </div>
             <p class="role">Développeuse Web</p>
             <div class="buttons">
-                <a href="https://github.com/ju2dev" target="_blank" class="btn github">
+                <a href="https://github.com/ju2dev" class="btn github">
                     <img src="img/github.svg"  alt="GitHub" width="20" height="20"> Github
                 </a>
                 <a href="cv.pdf" download class="btn cv">
@@ -37,17 +45,18 @@
                 </a>
             </div>
                 <div class="container">
+                    <img src="img/fleur-jaune.png" alt="fleur décorative" class="corner-flower flower-top-right">
+                    <img src="img/fleur-rose-foncé.png" alt="fleur décorative" class="corner-flower flower-bottom-left">
                     <div class="description">
                     <p>J’ai 22 ans et toutes mes dents !</p>
                     <p>Passionné par le développement web, le design et l'accessibilité depuis de nombreuses années.</p>
-                    <p>J’ai des compétences en SCSS, CSS, HTML,JAVASCRIPT,SASS,REACT</p>
+                    <p>Formé par Openclassroom, j’ai des compétences en SCSS, CSS, HTML,JAVASCRIPT,SASS,REACT</p>
                 </div>
                 </div>
         </section>
 
         <!-- Section des projets -->
-        <h2 id="projets" class="section-title">Les projets</h2>
-            <div class="projects-section-container">
+            <div id="projets" class="projects-section-container">
                 <section class="projects-section">
 
              <!-- Projet 1 -->
@@ -72,7 +81,7 @@
     
         <!-- Projet 2 -->
         <div class="project-card">
-            <a href="https://github.com/ju2dev/Kasa">
+            <a href="https://github.com/ju2dev/OHMYFOOD">
             <div class="project-inner">
                 <div class="project-front">
                     <img src="img/OHMYFOOD.png" alt="Projet 2">
@@ -83,7 +92,7 @@
             </div>
         </a>
             <div class="project-info">
-                <a href="https://github.com/ju2dev/Kasa">
+                <a href="https://github.com/ju2dev/OHMYFOOD">
                     <img src="img/github.svg" alt="GitHub" class="github-icon2">
                 </a>
                 <p>Projet 2 : OHMYFOOD </p>
@@ -92,10 +101,10 @@
     
         <!-- Projet 3 -->
         <div class="project-card">
-            <a href="https://github.com/ju2dev/Kasa">
+            <a href="https://github.com/ju2dev/Portfolio-architecte">
             <div class="project-inner">
                 <div class="project-front">
-                    <img src="img/photo3.jpg" alt="Projet 3">
+                    <img src="img/archi.png" alt="Projet 3">
                 </div>
                 <div class="project-back">
                     <p><strong>Projet 3 : Portfolio-architecte </strong></p>
@@ -103,7 +112,7 @@
             </div>
         </a>
             <div class="project-info">
-                <a href="https://github.com/ju2dev/Kasa">
+                <a href="https://github.com/ju2dev/Portfolio-architecte">
                     <img src="img/github.svg" alt="GitHub" class="github-icon3">
                 </a>
                 <p>Projet 3 : Portfolio architecte </p>
@@ -112,10 +121,10 @@
     
         <!-- Projet 4 -->
         <div class="project-card">
-            <a href="https://github.com/ju2dev/Kasa">
+            <a href="https://github.com/ju2dev/Nina-Carducci---Photographe-Professionnelle">
             <div class="project-inner">
                 <div class="project-front">
-                    <img src="img/photo4.jpg" alt="Projet 4">
+                    <img src="img/photo.png" alt="Projet 4">
                 </div>
                 <div class="project-back">
                     <p><strong>Projet 4 : Photographe Professionnelle </strong></p>
@@ -123,7 +132,7 @@
             </div>
         </a>
             <div class="project-info">
-                <a href="https://github.com/ju2dev/Kasa">
+                <a href="https://github.com/ju2dev/Nina-Carducci---Photographe-Professionnelle">
                     <img src="img/github.svg" alt="GitHub" class="github-icon4">
                 </a>
                 <p>Projet 4 : Photographe Professionnelle </p>
@@ -132,10 +141,10 @@
     
         <!-- Projet 5 -->
         <div class="project-card">
-            <a href="https://github.com/ju2dev/Kasa">
+            <a href="https://github.com/ju2dev/Debuggez-le-site-d-une-agence-d-evenementiel">
             <div class="project-inner">
                 <div class="project-front">
-                    <img src="img/photo5.jpg" alt="Projet 5">
+                    <img src="img/debug.png" alt="Projet 5">
                 </div>
                 <div class="project-back">
                     <p><strong>Projet 5 : Debuggez une agence evenementiel </strong></p>
@@ -143,7 +152,7 @@
             </div>
         </a>
             <div class="project-info">
-                <a href="https://github.com/ju2dev/Kasa">
+                <a href="https://github.com/ju2dev/Debuggez-le-site-d-une-agence-d-evenementiel">
                     <img src="img/github.svg" alt="GitHub" class="github-icon5">
                 </a>
                 <p>Projet 5 : Debuggez une agence evenementiel </p>
@@ -152,10 +161,10 @@
     
         <!-- Projet 6 -->
         <div class="project-card">
-            <a href="https://github.com/ju2dev/Kasa">
+            <a href="https://github.com/ju2dev/PRINT">
             <div class="project-inner">
                 <div class="project-front">
-                    <img src="img/photo6.jpg" alt="Projet 6">
+                    <img src="img/PRINT.png" alt="Projet 6">
                 </div>
                 <div class="project-back">
                     <p><strong>Projet 6 : PRINT </strong></p>
@@ -163,7 +172,7 @@
             </div>
         </a>
             <div class="project-info">
-                <a href="https://github.com/ju2dev/Kasa">
+                <a href="https://github.com/ju2dev/PRINT">
                     <img src="img/github.svg" alt="GitHub" class="github-icon6">
                 </a>
                 <p>Projet 6 : PRINT </p>
@@ -172,10 +181,10 @@
     
         <!-- Projet 7 -->
         <div class="project-card">
-            <a href="https://github.com/ju2dev/Kasa">
+            <a href="https://github.com/">
             <div class="project-inner">
                 <div class="project-front">
-                    <img src="img/photo7.jpg" alt="Projet 7">
+                    <img src="img/argentbank.png" alt="Projet 7">
                 </div>
                 <div class="project-back">
                     <p><strong>Projet 7 : ARGENTBANK </strong></p>
@@ -183,7 +192,7 @@
             </div>
         </a>
             <div class="project-info">
-                <a href="https://github.com/ju2dev/Kasa">
+                <a href="https://github.com/">
                     <img src="img/github.svg" alt="GitHub" class="github-icon7">
                 </a>
                 <p>Projet 7 : ARGENTBANK </p>
@@ -192,10 +201,10 @@
     
         <!-- Projet 8 -->
         <div class="project-card">
-            <a href="https://github.com/ju2dev/Kasa">
+            <a href="https://github.com/">
             <div class="project-inner">
                 <div class="project-front">
-                    <img src="img/photo8.jpg" alt="Projet 8">
+                    <img src="img/qwenta.png" alt="Projet 8">
                 </div>
                 <div class="project-back">
                     <p><strong>Projet 8 : QWENTA </strong></p>
@@ -203,7 +212,7 @@
             </div>
         </a>
             <div class="project-info">
-                <a href="https://github.com/ju2dev/Kasa">
+                <a href="https://github.com/">
                     <img src="img/github.svg" alt="GitHub" class="github-icon8">
                 </a>
                 <p>Projet 8 : QWENTA </p>
@@ -212,10 +221,10 @@
     
         <!-- Projet 9 -->
         <div class="project-card">
-            <a href="https://github.com/ju2dev/Kasa">
+            <a href="https://github.com/ju2dev/Portfolio">
             <div class="project-inner">
                 <div class="project-front">
-                    <img src="img/photo9.jpg" alt="Projet 9">
+                    <img src="img/portfolio.png" alt="Projet 9">
                 </div>
                 <div class="project-back">
                     <p><strong>Projet 9 : Github Portfolio </strong></p>
@@ -223,23 +232,23 @@
             </div>
         </a>
             <div class="project-info">
-                <a href="https://github.com/ju2dev/Kasa">
+                <a href="https://github.com/ju2dev/Portfolio">
                     <img src="img/github.svg" alt="GitHub" class="github-icon9">
                 </a>
                 <p>Projet 9 : Github Portfolio </p>
             </div>
         </div>
     </section>
+</main>
 
         <footer class="footer">
             <div class="footer-content">
                 <p>&copy; 2024 Ju - Développeuse Web. Tous droits réservés.</p>
                 <nav>
                     <ul>
-                        <li><a href="#accueil">Accueil</a></li>
-                        <li><a href="#projets">Projets</a></li>
-                        <li><a href="#passions">Passions</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="mention.html">Mentions légales</a></li>
+                        <li><a href="conf.html">Politque de confidentialité</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>

@@ -1,0 +1,152 @@
+/* Styles généraux */
+body {
+    margin: 0;
+    font-family: "Work Sans";
+    color: #333;
+    padding-top: 60px; 
+    background-color: #FADDC0;
+}
+
+/* NAV */
+.navbar {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35%;
+    z-index: 1000;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 30px;
+    padding: 4px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar li {
+    margin: 10px 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #F5B8B8;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    border-radius: 30px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre pour le style */
+    background-color: #ffffff; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    margin: 20px auto; /* Centre horizontalement */
+    width: 80%; /* Ajuste la largeur */
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-content a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-content a:hover {
+    color: #e91e63; /* Couleur au survol */
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.profile-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #d4af37;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.interests {
+    list-style-type: none;
+    padding: 0;
+}
+
+.interests li {
+    margin-bottom: 5px;
+}
+
+.corner-flower {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    animation: rotate 7s linear infinite;
+}
+
+.flower-top-left {
+    top: -25px;
+    left: -25px;
+}
+
+.flower-bottom-right {
+    bottom: -25px;
+    right: -25px;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
